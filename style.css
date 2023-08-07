@@ -1,0 +1,130 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #0A1828;
+    color: #BFA181;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #BFA181;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: #0A1828;
+    text-decoration: none;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Admissions Section Styles */
+  #admissions {
+    background-color: #0A1828;
+    color: #BFA181;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  #admissions h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  #admissions p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  #admissions form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #admissions label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #admissions input[type="text"],
+  #admissions input[type="email"],
+  #admissions select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #BFA181;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  #admissions button[type="submit"] {
+    background-color: #BFA181;
+    color: #0A1828;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #admissions button[type="submit"]:hover {
+    background-color: #A08D5C;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #0A1828;
+    color: #BFA181;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin: 5px 0;
+    }
+  
+    #admissions form {
+      max-width: 100%;
+    }
+  }
+
+
+  
